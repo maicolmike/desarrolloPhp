@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script>
+function vali()
+{
+	document.form1.oculto.value="1"
+	document.form1.action="fac.php"
+	document.form1.factorial.type="submit"
+	
+	
+}
+function vali2()
+{
+	document.form1.oculto.value="2"
+	document.form1.action="fac.php"
+	document.form1.tabla.type="submit"
+	
+	
+}
+
+</script>
+
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="fac.php">
+  <p>&nbsp;</p>
+  <p>numero 
+  <input type="hidden" name="oculto"/>
+    <label for="campo"></label>
+    <input type="text" name="campo" id="campo" />
+  </p>
+  <p>
+    <input type="button" name="factorial" onclick="vali()" id="factorial" value="Factorial" />
+    <input type="button" name="tabla" id="tabla" onclick="vali2()" value="Tabla" />
+  </p>
+  <p>&nbsp;</p>
+</form>
+</body>
+</html>

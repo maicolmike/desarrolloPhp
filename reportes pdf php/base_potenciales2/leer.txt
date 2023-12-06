@@ -1,0 +1,5 @@
+funciona con la ultima libreria de html2pdf, toca instalar composer y luego instalar la libreria desde la pagina oficial
+alli estan los comando que hay que digitar, se los debe digitar en la ruta donde van a ir instalados
+
+para evitar confucion se dejo como nombre la carpeta base_´potenciales2 pero cuando ya se exporte el scritcase, pasar esta
+carpeta competa con el nombre de base_potenciales

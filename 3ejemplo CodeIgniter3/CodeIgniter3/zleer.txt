@@ -1,0 +1,71 @@
+url para que funcione los parametros de links
+http://localhost/CodeIgniter3/index.php/cursos/index/   
+
+url para que funcione editar/borrar
+http://localhost/CodeIgniter3/index.php/cursos/editar/1
+http://localhost/CodeIgniter3/index.php/cursos/borrar/2
+http://localhost/CodeIgniter3/index.php/cursos
+http://localhost/CodeIgniter3/cursos/editar
+http://localhost/CodeIgniter3/cursos/editar/4
+http://localhost/CodeIgniter3/cursos
+http://localhost/CodeIgniter3/nuevo
+http://localhost/CodeIgniter3/editar
+http://localhost/CodeIgniter3/codigofacilito/enviaremail
+
+
+otra forma para hacer en editar.php 
+foreach($cursos->result() as $row)
+		{	
+			$nombreq = $row->nombrecursos;
+			$videoq = $row->cantidadcursos;
+	$nombre= array(
+    'name'=>'nombre','placeholder'=>'escribe tu nombre','value'=>$nombreq
+     );
+
+	$videos= array(
+    'name'=>'videos','placeholder'=>'escribe su video','value'=>$videoq
+     );		
+	}
+	
+	
+otra forma de eliminar
+function eliminarcurso($id){
+ 	$this->db->delete('cursos',array('idcurso'=>$id));
+ 	
+ 	
+ }	
+ 
+ otra forma de curso.php 
+ <?php 
+if ($cursos) {
+	foreach ($cursos->result() as $curso) { ?>
+    <ul>
+    <li><a href="<?=$curso->idcurso;?>"><?=$curso->nombrecursos;?></a></li>    
+    </ul>
+ <?php } 
+ } else {
+ 	echo "<p>error en la aplicacion no hay datos</p>";
+ }
+ ?>
+</body>
+</html>
+_____________
+<? if($cursos): ?>
+	<? foreach ($cursos->result() as $curso): ?>
+	<ul>
+    <li><a href="<?$curso->idcurso;?>"><?$curso->nombrecursos;?></a></li>    
+    </ul>
+
+<? endforeach;?>
+
+<? else: ?>	
+	<p>error aplicacion</p>
+
+<? endif; ?>
+
+
+
+</body>
+</html>
+
+

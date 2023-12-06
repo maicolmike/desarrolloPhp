@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	
+	background:#CCC;
+		
+}
+
+td{
+	
+	text-align:right;
+		
+}
+
+select{
+	
+		border-radius: 10px;
+		padding: 0.5em;
+		border:0px;
+		width: 184px;	
+		color:#000;
+}
+
+#formulario{
+	
+	background:#CCC;
+	width: 500px;	
+	border: 1px solid white;
+	margin:5px 70px;
+	padding: 1em;
+	border-radius: 10px;
+	text-align:left;
+	box-shadow:inset 0 0 10px  #000000;		
+	
+}
+
+input[type="text"], input[type="password"], input[type="number"]{
+	
+		border-radius: 10px;
+		padding: 0.5em;
+		border:0px;
+	
+	
+}
+
+input[type="submit"], a{
+	
+	padding: 0.5em;
+	background:#FFF;
+	border:none;
+	color:#000;
+	font-size:15px;
+	border-radius:5px;
+	text-decoration:none;		
+}
+
+input[type="submit"]:hover, a:hover{
+	
+	background:#CCC;
+	cursor:pointer;
+		
+}
+

@@ -1,0 +1,7 @@
+http://localhost/base_potenciales/reportes_PDF/1prorroga.php?idinscripcion=1  
+http://localhost/base_potenciales/reportes_PDF/2apoderadodamnificado.php?idinscripcion=1
+http://localhost/base_potenciales/reportes_PDF/3apoderadoarrendador.php?idinscripcion=1
+http://localhost/base_potenciales/reportes_PDF/4apoderadodamnificadoarrendador.php?idinscripcion=1
+http://localhost/base_potenciales/reportes_PDF/5contratonuevo.php?idinscripcion=1
+
+          

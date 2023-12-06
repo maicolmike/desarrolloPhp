@@ -1,0 +1,2 @@
+header ('Location: /base_potenciales2/reportes_PDF/1prorroga.php?idinscripcion='.$this->idinscripcion.'');
+header ('Location: /sharksv2/reportes_PDF/inscripcion.php?idinscripcion='.$this->idinscripcion.'');

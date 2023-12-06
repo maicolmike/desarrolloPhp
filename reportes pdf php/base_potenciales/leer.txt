@@ -1,0 +1,2 @@
+funciona con la libreria html2pdf que nos paso el profesor en la tecnologia, es una libreria vieja, la cual necesita
+xamp viejo

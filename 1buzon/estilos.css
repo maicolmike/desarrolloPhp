@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.titulo{
+	
+	font-size:26px;
+	font-weight:bold;
+	
+	}
+	
+	.filas{
+		
+		font-size:22px;
+		font-weight:bold;
+		background:#2031F0;
+		color:#fff;
+		width:40%;
+		text-align:center;
+		padding:5px;
+		
+		
+		}
+
+.boton{
+	
+	background:#2031F0;
+	color:#F7F2F2;
+	font-size:20px;
+	padding:5px;
+	
+	
+	}
+	
+	.tabla{
+		
+		border:1px solid #BCB5B5;
+		background-color:#CFCFCF;
+		
+		}
